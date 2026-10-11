@@ -14,7 +14,7 @@
 </table>
 <p align="center"><em>Figure 1: Wearable Platform Architecture: Standalone Sensor Garment (Left) and Integrated Active Exoskeleton System (Right)</em></p>
 
-## EPIC Labs, Mechanical Lead
+## EPIC Labs, Mechanical Lead (Sensor Suit V2 & Stroke Rehabilitation)
 
 Optical motion capture systems restrict biomechanical gait analysis to controlled lab spaces. At EPIC Labs, we developed a field-deployable motion capture garment integrated with active lower-body assistive exoskeletons for clinical stroke rehabilitation and energy harvesting research. The mechanical goal was to maintain continuous sensor-to-skin registration, route wiring securely, and simplify donning and doffing for individuals with motor impairments.
 
