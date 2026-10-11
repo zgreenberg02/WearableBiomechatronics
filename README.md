@@ -26,7 +26,7 @@ Optical motion capture systems restrict biomechanical gait analysis to controlle
 As the Mechanical Lead for both the Sensor Suit V2 and Stroke teams, I owned the mechanical redesign of our Version 2 sensor suit, CAD modeling, technical apparel prototyping, additive manufacturing, and wearable sensor packaging. I also led the mechanical updates for hip and pelvic attachments to align robotic joint axes with human anatomy. Key accomplishments:
 
 ### Hip and Pelvic Structure Redesign
-I updated the pelvic interface in CAD to improve anatomical fit and load transfer across body types. The assembly features an adjustable center track with a 22 cm adjustment range to dial in inter-hip width without adding bulk. I redesigned the curved hip load-transfer brackets and battery mounting interfaces to follow pelvic contours and maintain joint alignment with powered exoskeleton drives. These components were 3D-printed on Bambu Lab systems to quickly validate the new kinematic geometry and test mechanical integration with the existing exoskeleton chassis before machining final production parts from high-durability materials.
+I updated the pelvic interface in CAD to improve anatomical fit and load transfer across body types. The assembly features an adjustable center track with a 22 cm adjustment range to dial in inter-hip width without adding bulk. I redesigned the curved hip load-transfer brackets and CAD-modeled a unified pelvic mounting configuration for the battery and electronics packs, designed to eliminate umbilical wiring. To validate the core kinematic fit prior to machining final production parts from high-durability materials, the curved pelvic struts were 3D-printed on Bambu Lab systems and bench-tested with the existing exoskeleton frame.
 
 <table align="center" width="100%">
   <tr>
@@ -60,35 +60,4 @@ To resolve donning issues with earlier prototypes, I overhauled the physical con
 <p align="center"><em>Figure 4: Garment Fabrication: Seam Pinning Layout (Left) and Finished Dynamic Fit Under Knee Flexion (Right)</em></p>
 
 ### Physical Garment Iteration and Cable Management
-I refined the garment across multiple builds, transitioning from our early prototypes to the Version 2 suit. I integrated elastic routing pouches and Velcro closure flaps directly along the thighs and shanks. These pockets protect wire breakout bundles and give lines enough slack during deep knee flexion while keeping conductors from catching on exoskeleton struts.
-
-<table align="center" width="100%">
-  <tr>
-    <td align="center" valign="top" width="50%">
-      <img src="Images/v2_suit_layflat.png" width="100%"><br>
-      <em>Version 2 Suit Architecture and Routing Pouches</em>
-    </td>
-    <td align="center" valign="top" width="50%">
-      <img src="Images/v2_suit_rear_gait.png" width="100%"><br>
-      <em>Dynamic Knee Flexion and Rear Cable Clearance</em>
-    </td>
-  </tr>
-</table>
-<p align="center"><em>Figure 5: Apparel Iteration: V2 Suit Flat Architecture (Left) and Dynamic Knee Flexion Tracking (Right)</em></p>
-
-### Modular Electronics Relocation & Exoskeleton Hardware Interface
-Early revisions housed controller and battery electronics in ventilated backpack modules, requiring long umbilical harnesses down to the legs. To eliminate harness tethering and consolidate the system into a single wearable chassis, I redesigned these enclosures into modular, ventilated hip packs that mount directly to the pelvic frame. This shortened cable runs to the T-Motor actuators, lowered the user’s center of mass, and prevented wires from snagging on the carbon fiber leg struts during gait.
-
-<table align="center" width="100%">
-  <tr>
-    <td align="center" valign="top" width="50%">
-      <img src="Images/hip_exo_electronics_tray.png" width="100%"><br>
-      <em>Ventilated Electronics Housing and Power Harness</em>
-    </td>
-    <td align="center" valign="top" width="50%">
-      <img src="Images/exoskeleton_hip_linkage.png" width="100%"><br>
-      <em>Carbon Fiber Exoskeleton Hip Linkage and IMU Mount</em>
-    </td>
-  </tr>
-</table>
-<p align="center"><em>Figure 6: Hardware Packaging: Ventilated Controller Tray (Left) and Powered Exoskeleton Hip
+I refined the garment across multiple builds, transitioning from our early prototypes to the Version 2 suit. I integrated elastic routing pouches and Velcro closure flaps directly along the thighs and shanks. These pockets protect wire breakout bundles and give lines enough slack during
